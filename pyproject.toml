@@ -1,7 +1,7 @@
 [project]
 name = "student-assistant-mcp-server"
 version = "0.1.0"
-description = "Model Context Protocol (MCP) server for student assistance, grade calculations, notes, and exam prep."
+description = "MCP server for student workflows, notes, and study planning"
 readme = "README.md"
 requires-python = ">=3.10"
 dependencies = [
