@@ -1,0 +1,16 @@
+[project]
+name = "student-assistant-mcp-server"
+version = "0.1.0"
+description = "Model Context Protocol (MCP) server for student assistance, grade calculations, notes, and exam prep."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "mcp<2",
+]
+
+[project.scripts]
+student-assistant = "student_assistant_server:mcp.run"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
